@@ -1,0 +1,37 @@
+body{
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 128);
+}
+
+#line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 1em 0;
+    padding: 0;
+}
+
+p{
+    margin:0;
+}
+
+ul{
+    text-align: left;
+    column-count: 2;
+    margin-top: 20px;
+}
+
+li{
+    margin: 30px;
+}
+
+img{
+    align-self: center;
+    height: 15px;
+    width:75px;
+}
